@@ -1,0 +1,11 @@
+services:
+  rabbit-meme-market:
+    build: .
+    container_name: rabbit-meme-market
+    ports:
+      # Bound to loopback only so the vulnerable app is never reachable from the network.
+      - "127.0.0.1:5000:5000"
+    environment:
+      # 0 = vulnerable (practice).  Set to 1 to run the fixed version and watch attacks fail.
+      - SECURE=0
+    restart: unless-stopped

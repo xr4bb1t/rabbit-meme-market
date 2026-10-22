@@ -1,0 +1,14 @@
+# local database (re-seeds itself)
+market.db
+*.db
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# scratch
+j*.txt
+*.log
+.DS_Store
