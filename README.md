@@ -19,7 +19,7 @@ no setup to fight with.
 ## Quick start (Docker)
 
 ```bash
-git clone https://github.com/<your-username>/rabbit-meme-market.git
+git clone https://github.com/xr4bb1t/rabbit-meme-market.git
 cd rabbit-meme-market
 docker compose up --build
 ```
